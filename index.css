@@ -1,0 +1,53 @@
+::-webkit-input-placeholder {
+    font-family: sans-serif;
+    color: #CCC9C4;
+}
+
+::-moz-placeholder {
+    font-family: sans-serif;
+    color: #CCC9C4;
+}
+
+html {
+    display: table;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    height: 87%;
+}
+
+body {
+    background-color: #FCF8F2;
+    width: 960px;
+    height: 87%;
+}
+
+#title {
+    margin: 40px auto;
+}
+
+#numberInput {
+    resize: none;
+    background-color: #FCF4F2;
+    border: thin solid #CCC9C4;
+}
+
+#factOutput {
+    word-wrap: break-word;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+#factOutputContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #FCF4F2;
+    border: thin solid #CCC9C4;
+    display: block;
+    margin: 30px auto;
+
+    position: relative;
+}
